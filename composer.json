@@ -1,0 +1,18 @@
+{
+    "name": "francoisvaillant/sendsms",
+    "description": "sms send with mailjet",
+    "autoload": {
+        "psr-4": {
+            "Francoisvaillant\\Sendsms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "François VAILLANT",
+            "email": "frvaillant@gmail.com"
+        }
+    ],
+    "require": {
+        "mailjet/mailjet-apiv3-php": "^1.5"
+    }
+}
